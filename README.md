@@ -18,6 +18,34 @@ Are there enough qualified, retirement-ready employees in the departments to men
 The purpose of this analysis was to determine the number of retiring employees per title, as well as, determining the employees who are eligible for the mentorship program. Once the results were obtained, the following questions will be answered: How many roles will need to be filled as the "silver tsunami" and are there enough qualified employees to mentor the next generation?
 
 ## Results:
+
+* Retirement Titles
+  
+   Retirement Titles table holds all the titles of employees who were born between January 1, 1952 and December 31, 1955. As shown, there are repeating employee numbers due to promotions or moving in the company.
+   
+   Figure 1. Retirement Titles Table and Code
+  <img width="961" alt="retirement_titles_code" src="https://user-images.githubusercontent.com/65638310/152882280-c7cdf84f-b867-405e-b4cc-961759104012.png">
+
+  
+* Retiring Titles
+
+
+  Figure 2 shows retiring employees with their newest title. We also included parameters of employees that are currently working with the company. The date choosen to keep only those dates are equal to '9999-01-01'.
+  
+  Figure 2. Retiring Titles Table and Code
+  <img width="849" alt="retiring_titles_code" src="https://user-images.githubusercontent.com/65638310/152882309-0de4cd00-a7ed-4def-b875-f648ae8c13e3.png">
+
+
+* Unique Titles
+  
+  
+  Figure 3. Unique Titles Table and Code
+  <img width="1145" alt="unique_titles_code" src="https://user-images.githubusercontent.com/65638310/152882325-d9ab2914-e6eb-48dc-90cf-066defe70aab.png">
+
+
 * Mentorship Eligibility 
-* 
+  Figure 4. Mentorship Eligibility Table and Code
+  <img width="1079" alt="mentorship_eligibilty_code" src="https://user-images.githubusercontent.com/65638310/152882359-9f6ee5ef-b13d-4775-a57b-cfb9a8445a2b.png">
+
+
 ## Summary: 
