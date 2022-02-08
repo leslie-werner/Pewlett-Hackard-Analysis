@@ -52,13 +52,15 @@ The purpose of this analysis was to determine the number of retiring employees p
 
 ### Summary Questions
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
-   There are a total of 41,380 positions that need to be filled. From this total all will be from the following departments: 
+*
+   There are a total of 41,380 positions that need to be filled. From this total all will be from the following departments: Senior Engineer, Senior Staff, Engineer, Staff, Technique Leader, Assistant Engineer, and Manager.
    
    Figure 5. Count of Total Retiring Employees
    
    <img width="484" alt="count _retiring" src="https://user-images.githubusercontent.com/65638310/152892835-56c69390-a1b2-48c0-8bb3-3778dd41997f.png">
 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+*
 Currently, there are enough qualified employees who are retirement-ready who can mentor the next generation for six of the seven departments. Engineering department has the most eligible employees followed by Senior Staff. Shown in figure 6 the lowest amount of eligible employees for the program are assistant engineering.     
 
    Figure 6. Titles of Retiring Employees Count 
@@ -68,6 +70,7 @@ Currently, there are enough qualified employees who are retirement-ready who can
 ### Additional Insight
 
 * Salaries of Retiring Employees 
+*
    It is important to find out the salaries of the retiring employees to have a general idea of how budgetting will play out. It will also determine what range new employees will be placed in for pay.
    <img width="892" alt="retiring_salaries" src="https://user-images.githubusercontent.com/65638310/153095191-9cd1fcb2-4fa0-45c5-b798-7092e311e3de.png">
 
