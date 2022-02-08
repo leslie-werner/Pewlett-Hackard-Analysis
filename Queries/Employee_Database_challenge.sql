@@ -153,6 +153,14 @@ SELECT * FROM retiring_salaries;
 
 DROP TABLE retiring_salaries;
 
+SELECT me.emp_no, me.first_name, me.last_name, me.title, salary
+INTO eligible_emp_salaries
+FROM mentorship_elgibility AS me
+JOIN salaries ON me.emp_no = salaries.emp_no;
+
+SELECT * FROM eligible_emp_salaries;
+
+DROP TABLE eligible_emp_salaries;
 
 
 
@@ -161,21 +169,3 @@ DROP TABLE retiring_salaries;
 
 
 
-
-
-
-
-
-
-
-
-
-
-SELECT COUNT(title), title, SUM(salary) salaries
-INTO sum_of_retiring
-FROM retiring_salaries
-GROUP BY title;
-
-SELECT * FROM sum_of_retiring;
-
-DROP TABLE sum_of_retiring;
