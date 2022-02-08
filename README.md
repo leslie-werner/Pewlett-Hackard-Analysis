@@ -42,9 +42,15 @@ The purpose of this analysis was to determine the number of retiring employees p
 
 
 * Mentorship Eligibility 
-  
+   Mentorship Elgibility for retiring employees is shown in Figure 4. We included parameters with the birthdate between January 1, 1965 and December 31, 1965.
+   
   Figure 4. Mentorship Eligibility Table and Code
   <img width="1079" alt="mentorship_eligibilty_code" src="https://user-images.githubusercontent.com/65638310/152882359-9f6ee5ef-b13d-4775-a57b-cfb9a8445a2b.png">
 
 
 ## Summary: 
+* How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+   There are a total of 41,380 positions that need to be filled. From this total all will be from the following departments: 
+   <img width="484" alt="count _retiring" src="https://user-images.githubusercontent.com/65638310/152892835-56c69390-a1b2-48c0-8bb3-3778dd41997f.png">
+
+* Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
