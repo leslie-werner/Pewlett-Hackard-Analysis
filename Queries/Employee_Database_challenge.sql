@@ -128,3 +128,54 @@ ORDER BY emp_no;
 SELECT * FROM mentorship_elgibility;
 
 DROP TABLE mentorship_elgibility;
+
+
+SELECT COUNT(title), title
+INTO mentorship_titles
+FROM mentorship_elgibility
+GROUP BY title
+ORDER BY count DESC;
+
+SELECT * FROM mentorship_titles;
+
+DROP TABLE mentorship_elgibility;
+
+SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, s.from_date, s.to_date, title, s.salary 
+INTO retiring_salaries
+FROM employees AS e
+JOIN salaries AS s ON e.emp_no = s.emp_no
+JOIN titles ON s.emp_no = titles.emp_no
+WHERE (birth_date BETWEEN '1952-01-01' AND '1955-12-31')
+AND (hire_date BETWEEN '1985-01-01' AND '1988-12-31')
+ORDER BY emp_no;
+
+SELECT * FROM retiring_salaries;
+
+DROP TABLE retiring_salaries;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT COUNT(title), title, SUM(salary) salaries
+INTO sum_of_retiring
+FROM retiring_salaries
+GROUP BY title;
+
+SELECT * FROM sum_of_retiring;
+
+DROP TABLE sum_of_retiring;
