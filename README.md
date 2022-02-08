@@ -49,8 +49,31 @@ The purpose of this analysis was to determine the number of retiring employees p
 
 
 ## Summary: 
+
+### Summary Questions
 * How many roles will need to be filled as the "silver tsunami" begins to make an impact?
    There are a total of 41,380 positions that need to be filled. From this total all will be from the following departments: 
+   
+   Figure 5. Count of Total Retiring Employees
+   
    <img width="484" alt="count _retiring" src="https://user-images.githubusercontent.com/65638310/152892835-56c69390-a1b2-48c0-8bb3-3778dd41997f.png">
 
 * Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+Currently, there are enough qualified employees who are retirement-ready who can mentor the next generation for six of the seven departments. Engineering department has the most eligible employees followed by Senior Staff. Shown in figure 6 the lowest amount of eligible employees for the program are assistant engineering.     
+
+   Figure 6. Titles of Retiring Employees Count 
+   
+   <img width="449" alt="mentorship_titles" src="https://user-images.githubusercontent.com/65638310/153079111-57a286d6-fac9-44bc-938c-272560fa6fe4.png">
+
+### Additional Insight
+
+* Salaries of Retiring Employees 
+   It is important to find out the salaries of the retiring employees to have a general idea of how budgetting will play out. It will also determine what range new employees will be placed in for pay.
+   <img width="892" alt="retiring_salaries" src="https://user-images.githubusercontent.com/65638310/153095191-9cd1fcb2-4fa0-45c5-b798-7092e311e3de.png">
+
+* Salaries of Elgible Employees
+   Finding how much each eligible employee for the mentorship program is very important. This will help determine what would be an appropriate pay transitioning to part-time employees. 
+   <img width="567" alt="eligible_emp_salaries_code" src="https://user-images.githubusercontent.com/65638310/153095214-10331138-2dc5-4824-aac9-2bac55cc1ab3.png">
+
+   
+   
