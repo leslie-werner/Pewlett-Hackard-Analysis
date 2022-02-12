@@ -45,7 +45,9 @@ The purpose of this analysis was to determine the number of retiring employees p
    Mentorship Elgibility for retiring employees is shown in Figure 4. We included parameters with the birthdate between January 1, 1965 and December 31, 1965.
    
   Figure 4. Mentorship Eligibility Table and Code
-  <img width="1079" alt="mentorship_eligibilty_code" src="https://user-images.githubusercontent.com/65638310/152882359-9f6ee5ef-b13d-4775-a57b-cfb9a8445a2b.png">
+  <img width="955" alt="mentorship_elgibility code" src="https://user-images.githubusercontent.com/65638310/153716537-18419fc2-9929-42ae-b038-8406a9225ae8.png">
+
+  Figure 4. Mentorship Eligibility Table and Code
 
 
 ## Summary: 
