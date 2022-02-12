@@ -116,13 +116,13 @@ SELECT * FROM retiring_titles;
 -- Del. 2 Write a query to create Mentorship Elgibility table that holds the employees wh oare eligible to participate in mentorship program.
 -- USE DISTINCT ON to find elgibility
 
-SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, d.from_date, d.to_date, title
+SELECT DISTINCT ON (e.emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, d.from_date, d.to_date, t.title
 INTO mentorship_elgibility
 FROM employees AS e
-JOIN dept_emp AS d ON e.emp_no = d.emp_no
-JOIN titles ON d.emp_no = titles.emp_no
-WHERE (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-AND (d.to_date BETWEEN '1920-01-01' AND '9999-01-01')
+INNER JOIN dept_emp AS d ON (e.emp_no = d.emp_no)
+INNER JOIN titles AS t ON (e.emp_no = t.emp_no)
+WHERE (d.to_date = '9999-01-01')
+AND (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY emp_no;
 
 SELECT * FROM mentorship_elgibility;
@@ -161,6 +161,7 @@ JOIN salaries ON me.emp_no = salaries.emp_no;
 SELECT * FROM eligible_emp_salaries;
 
 DROP TABLE eligible_emp_salaries;
+
 
 
 
